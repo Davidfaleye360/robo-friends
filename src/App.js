@@ -37,7 +37,7 @@ class App extends Component {
             (
                 <div className='tc'>
                     <h1 className='f2'>Robo Friends</h1>
-                    <SearchBox searchChange={this.onSearchChange} />https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries
+                    <SearchBox searchChange={this.onSearchChange} />
                     <Scroll>
                         <CardList robots={filteredRobots} />
                     </Scroll>
